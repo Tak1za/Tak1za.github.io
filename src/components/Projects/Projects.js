@@ -31,7 +31,7 @@ function Projects() {
                 color="inherit"
                 rel="noreferrer"
               >
-                {`-${repo.title.toUpperCase()}-`}
+                {`${repo.title.toUpperCase()}`}
               </Link>
               {repo.tags.map((tag) => {
                 return (
