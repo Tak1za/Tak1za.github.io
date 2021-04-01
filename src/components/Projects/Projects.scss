@@ -5,38 +5,6 @@
   font-weight: 600;
   padding: 15px 0px;
 
-  @media (max-width: 746px) {
-    font-size: 49px;
-  }
-
-  @media (max-width: 717px) {
-    font-size: 48px;
-  }
-
-  @media (max-width: 640px) {
-    font-size: 43px;
-  }
-
-  @media (max-width: 580px) {
-    font-size: 41px;
-  }
-
-  @media (max-width: 550px) {
-    font-size: 38px;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 35px;
-  }
-
-  @media (max-width: 420px) {
-    font-size: 34px;
-  }
-
-  @media (max-width: 380px) {
-    font-size: 32px;
-  }
-
   .ProjectItems {
     padding: 5px 0px;
 
@@ -48,5 +16,53 @@
       color: black;
       text-decoration: none;
     }
+  }
+}
+
+@media (max-width: 746px) {
+  .Projects {
+    font-size: 49px;
+  }
+}
+
+@media (max-width: 717px) {
+  .Projects {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 640px) {
+  .Projects {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 580px) {
+  .Projects {
+    font-size: 41px;
+  }
+}
+
+@media (max-width: 550px) {
+  .Projects {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Projects {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 420px) {
+  .Projects {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 380px) {
+  .Projects {
+    font-size: 32px;
   }
 }
