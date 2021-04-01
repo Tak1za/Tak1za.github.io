@@ -7,14 +7,22 @@
 
   .ProjectItems {
     padding: 5px 0px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
 
     .Repository {
       color: #999;
     }
 
     .Repository:hover {
-      color: black;
+      color: white;
       text-decoration: none;
+    }
+
+    .Avatar {
+      padding: 0px 10px;
     }
   }
 }
