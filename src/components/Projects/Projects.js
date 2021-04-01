@@ -21,7 +21,7 @@ function Projects() {
       {repositories &&
         repositories.length > 0 &&
         repositories.map((repo) => (
-          <div key={repo.id}>
+          <div key={repo.id} className="ProjectItems">
             <Link
               className="Repository"
               target="_blank"
