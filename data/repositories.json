@@ -15,7 +15,7 @@
     "id": 3,
     "title": "Honeywell Forge",
     "url": "https://www.honeywell.com/us/en/honeywell-forge",
-    "tags": [".NET", "SpringBoot", "Go", "React", "Neo4j", "GraphQL", "Docker", "Linux"]
+    "tags": ["Dotnet", "SpringBoot", "Go", "React", "Neo4j", "GraphQL", "Docker", "Linux"]
   },
   {
     "id": 4,
