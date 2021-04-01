@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./Projects.scss";
-import repositoryData from "../../data/repositories.json";
+// import repositoryData from "../../data/repositories.json";
 import Link from "@material-ui/core/Link";
 
 function Projects() {
   const getData = () => {
-    var data = JSON.parse(JSON.stringify(repositoryData));
-    console.log(data);
-    setRepositories(data);
+    fetch("./repositories.json")
+      .then((res) => res.json())
+      .then((data) => setRepositories(data));
+    // var data = JSON.parse(JSON.stringify('./repositories.json'));
+    // console.log(data);
+    // setRepositories(data);
   };
 
   const [repositories, setRepositories] = useState([]);
