@@ -1,5 +1,14 @@
 .Projects {
-    font-size: 50px;
-    letter-spacing: 3px;
-    font-family: 'Rajdhani', sans-serif;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-family: "Rajdhani", sans-serif;
+
+  .Repository {
+    color: grey;
+  }
+
+  .Repository:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
