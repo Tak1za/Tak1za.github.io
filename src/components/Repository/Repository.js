@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Repository.scss";
 import RepositoryDetails from "../RepositoryDetails/RepositoryDetails";
 
@@ -15,16 +15,6 @@ function Repository(props) {
     setOpenDetails(false);
   };
 
-  const descriptionElementRef = useRef(null);
-  useEffect(() => {
-    if (openDetails) {
-      const { current: descriptionElement } = descriptionElementRef;
-      if (descriptionElement !== null) {
-        descriptionElement.focus();
-      }
-    }
-  }, [openDetails]);
-
   return (
     <div className="RepositoryContainer">
       <div
@@ -34,7 +24,6 @@ function Repository(props) {
       <RepositoryDetails
         openDetails={openDetails}
         handleCloseDetails={handleCloseDetails}
-        descriptionElementRef={descriptionElementRef}
         repo={repo}
       />
     </div>

@@ -10,12 +10,7 @@ import {
 } from "@material-ui/core";
 
 function RepositoryDetails(props) {
-  const {
-    openDetails,
-    handleCloseDetails,
-    descriptionElementRef,
-    repo,
-  } = props;
+  const { openDetails, handleCloseDetails, repo } = props;
   return (
     <Dialog
       className="Dialog"
@@ -27,11 +22,7 @@ function RepositoryDetails(props) {
     >
       <DialogTitle id="scroll-dialog-title">{repo.title}</DialogTitle>
       <DialogContent dividers={true}>
-        <DialogContentText
-          id="scroll-dialog-description"
-          ref={descriptionElementRef}
-          tabIndex={-1}
-        >
+        <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
           <p>
             On the other hand, we denounce with righteous indignation and
             dislike men who are so beguiled and demoralized by the charms of
