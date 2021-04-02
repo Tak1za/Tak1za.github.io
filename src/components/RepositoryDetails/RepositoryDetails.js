@@ -47,7 +47,7 @@ function RepositoryDetails(props) {
         {repo.tags.map((tag) => {
           return (
             <Avatar
-              src={`${process.env.PUBLIC_URL}/data/${tag.toLowerCase()}.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/${tag.toLowerCase()}.svg`}
               alt={tag}
               className="Avatar"
             />
