@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Projects.scss";
-
-import Repository from "./Repository/Repository";
+import Repository from "../Repository/Repository";
 
 function Projects() {
   const getData = () => {
