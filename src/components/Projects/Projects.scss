@@ -4,29 +4,6 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   padding: 15px 0px;
-
-  .ProjectItems {
-    padding: 10px 0px;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-
-    .Repository {
-      color: #999;
-      padding-right: 10px;
-    }
-
-    .Repository:hover {
-      color: white;
-      text-decoration: none;
-    }
-
-    .Avatar {
-      padding: 0px 10px;
-    }
-  }
 }
 
 @media (max-width: 746px) {

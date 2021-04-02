@@ -1,0 +1,24 @@
+.RepositoryContainer {
+  padding: 10px 0px;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .Repository {
+    color: #999;
+    padding-right: 10px;
+  }
+
+  .Repository:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .Avatar {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px;
+  }
+}
