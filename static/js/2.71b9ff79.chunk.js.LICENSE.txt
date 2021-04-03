@@ -4,6 +4,8 @@ object-assign
 @license MIT
 */
 
+/*! showdown v 1.9.1 - 02-11-2019 */
+
 /**
  * A better abstraction over CSS.
  *

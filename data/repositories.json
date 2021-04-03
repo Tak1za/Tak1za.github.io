@@ -3,60 +3,109 @@
     "id": 1,
     "title": "FlashXGo",
     "url": "https://github.com/flashxgo",
-    "tags": ["Go"]
+    "tags": ["Go"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 2,
     "title": "ChatApp",
     "url": "https://github.com/Tak1za/ChatApp",
-    "tags": ["Dart", "Flutter"]
+    "tags": ["Dart", "Flutter"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 3,
     "title": "Honeywell Forge",
     "url": "https://www.honeywell.com/us/en/honeywell-forge",
-    "tags": ["Dotnet", "SpringBoot", "Go", "React", "Neo4j", "GraphQL", "Docker", "Linux"]
+    "tags": [
+      "Dotnet",
+      "SpringBoot",
+      "Go",
+      "React",
+      "Neo4j",
+      "GraphQL",
+      "Docker",
+      "Linux"
+    ],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 4,
     "title": "Vehicle Management",
     "url": "https://github.com/Tak1za/vehicle-management",
-    "tags": ["Javascript", "HTML", "CSS", "Firebase", "Bootstrap"]
+    "tags": ["Javascript", "HTML", "CSS", "Firebase", "Bootstrap"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 5,
     "title": "Subscription Tracker",
     "url": "https://github.com/Tak1za/SubscriptionTracker",
-    "tags": ["Dart", "Flutter"]
+    "tags": ["Dart", "Flutter"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 6,
     "title": "Judgement",
     "url": "https://github.com/Tak1za/judgement",
-    "tags": ["Go"]
+    "tags": ["Go"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 7,
     "title": "Quiet Hackernews",
     "url": "https://github.com/Tak1za/go-hackernews",
-    "tags": ["Go", "HTML"]
+    "tags": ["Go", "HTML"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 8,
     "title": "Frankie's Dining",
     "url": "https://github.com/Tak1za/frankieOSP-master",
-    "tags": ["PHP", "HTML", "CSS", "Javascript"]
+    "tags": ["PHP", "HTML", "CSS", "Javascript"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 9,
     "title": "CRWN Clothing",
     "url": "https://github.com/Tak1za/crwn-clothing",
-    "tags": ["HTML", "CSS", "Javascript", "Firebase"]
+    "tags": ["HTML", "CSS", "Javascript", "Firebase"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   },
   {
     "id": 10,
     "title": "What you Watchin",
     "url": "https://github.com/Tak1za/whatyouwatchin-",
-    "tags": ["PHP", "HTML", "CSS", "Javascript"]
+    "tags": ["PHP", "HTML", "CSS", "Javascript"],
+    "data": {
+      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
+      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+    }
   }
 ]
