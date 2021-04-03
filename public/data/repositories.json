@@ -5,8 +5,8 @@
     "url": "https://github.com/flashxgo",
     "tags": ["Go"],
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "FlashX provides a Go package that helps easily setup a reverse proxy for your server/s.\n\nIt supports the following features:\n- Reverse Proxy\n- Reverse Proxy based on custom logic\n- Load Balancing\n\t- Round Robin\n\t- Weighted Round Robin\n\t- Least Connections\n- Blacklist IPs\n- Rate Limiting (requests per second)\n- Modify Request and Response\n- Buffer Pool\n- Custom Error Handler\n- Custom Logger\n- Flush Interval\n\nTake a look at some <a href='https://github.com/flashxgo/examples' target='_blank'>examples</a> on how to use this package.",
+      "stack": "Created using **Go**, providing a package that can be imported in your applications to utilize the feature filled reverse proxy server"
     }
   },
   {
@@ -92,7 +92,7 @@
     "id": 9,
     "title": "CRWN Clothing",
     "url": "https://github.com/Tak1za/crwn-clothing",
-    "tags": ["HTML", "CSS", "Javascript", "Firebase", "React"],
+    "tags": ["HTML", "CSS", "Firebase", "React"],
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -100,12 +100,12 @@
   },
   {
     "id": 10,
-    "title": "What you Watchin",
-    "url": "https://github.com/Tak1za/whatyouwatchin-",
-    "tags": ["PHP", "HTML", "CSS", "Javascript"],
+    "title": "Tech-News",
+    "url": "https://github.com/Tak1za/tech-news",
+    "tags": ["React", "Go"],
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "The latest and the greatest tech news from Hackernews and Reddit, two of the most popular platforms for trending news about technology.",
+      "stack": "Created using **React**, with a **Go** based API backend. Also hosts a CLI application that prints out articles from Hackernews and Reddit for the console lovers written in **Go**."
     }
   }
 ]

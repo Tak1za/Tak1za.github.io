@@ -11,6 +11,14 @@
   .MuiDialogContent-root {
     .MuiDialogContentText-root {
       color: white;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+          color: #000;
+      }
     }
   }
 }
