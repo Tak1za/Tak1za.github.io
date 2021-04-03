@@ -4,6 +4,7 @@
     "title": "FlashXGo",
     "url": "https://github.com/flashxgo",
     "tags": ["Go"],
+    "isStack": true,
     "data": {
       "desc": "FlashX provides a Go package that helps easily setup a reverse proxy for your server/s.\n\nIt supports the following features:\n- Reverse Proxy\n- Reverse Proxy based on custom logic\n- Load Balancing\n\t- Round Robin\n\t- Weighted Round Robin\n\t- Least Connections\n- Blacklist IPs\n- Rate Limiting (requests per second)\n- Modify Request and Response\n- Buffer Pool\n- Custom Error Handler\n- Custom Logger\n- Flush Interval\n\nTake a look at some <a href='https://github.com/flashxgo/examples' target='_blank'>examples</a> on how to use this package.",
       "stack": "Created using **Go**, providing a package that can be imported in your applications to utilize the feature filled reverse proxy server"
@@ -14,9 +15,9 @@
     "title": "ChatApp",
     "url": "https://github.com/Tak1za/ChatApp",
     "tags": ["Dart", "Flutter"],
+    "isStack": false,
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "A UI design for a messenger application designed in Flutter"
     }
   },
   {
@@ -33,6 +34,7 @@
       "Docker",
       "Linux"
     ],
+    "isStack": true,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -43,9 +45,10 @@
     "title": "Vehicle Management",
     "url": "https://github.com/Tak1za/vehicle-management",
     "tags": ["Javascript", "HTML", "CSS", "Firebase", "Bootstrap"],
+    "isStack": true,
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "Your one stop solution to manage your vehicle. Simply add your vehicle and some nitty gritty details about it. After your driving sessions, add your odometer readings, and we'll calculate the necessary things for you.\n\nNearing maintenance? track your vehicle in the dashboard and schedule your maintenance with the retailer.\n\n\nPoor performance of your vehicle over a period of time? We'll alert you and your retailer about the same.",
+      "stack": "The web interface is written in **HTML** and **embedded Javascript** while leveraging the power of **Bootstrap**. The backend is powered by **Node**, with **Firebase** being used as the datastore.\n\n**NodeMailer** is used to trigger emails, while **fusioncharts**, **plotly** and **nodeplotlib** are being utilized to generate the beautiful and informative graphs."
     }
   },
   {
@@ -53,6 +56,7 @@
     "title": "Subscription Tracker",
     "url": "https://github.com/Tak1za/SubscriptionTracker",
     "tags": ["Dart", "Flutter"],
+    "isStack": false,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -63,6 +67,7 @@
     "title": "Judgement",
     "url": "https://github.com/Tak1za/judgement",
     "tags": ["Go"],
+    "isStack": true,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -73,6 +78,7 @@
     "title": "Quiet Hackernews",
     "url": "https://github.com/Tak1za/go-hackernews",
     "tags": ["Go", "HTML"],
+    "isStack": true,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -83,6 +89,7 @@
     "title": "Frankie's Dining",
     "url": "https://github.com/Tak1za/frankieOSP-master",
     "tags": ["PHP", "HTML", "CSS", "Javascript"],
+    "isStack": true,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -93,6 +100,7 @@
     "title": "CRWN Clothing",
     "url": "https://github.com/Tak1za/crwn-clothing",
     "tags": ["HTML", "CSS", "Firebase", "React"],
+    "isStack": true,
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
@@ -103,6 +111,7 @@
     "title": "Tech-News",
     "url": "https://github.com/Tak1za/tech-news",
     "tags": ["React", "Go"],
+    "isStack": true,
     "data": {
       "desc": "The latest and the greatest tech news from Hackernews and Reddit, two of the most popular platforms for trending news about technology.",
       "stack": "Created using **React**, with a **Go** based API backend. Also hosts a CLI application that prints out articles from Hackernews and Reddit for the console lovers written in **Go**."
