@@ -1,0 +1,43 @@
+.MuiGrid-root {
+  padding: 20px;
+
+  * {
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  h1,
+  h2 {
+    color: #888;
+  }
+
+  .Details {
+    .Name {
+      letter-spacing: 1.5px;
+    }
+
+    .DesignationAndEmail {
+      font-size: 0.7em;
+      margin-top: 0px;
+      letter-spacing: 0.5px;
+    }
+
+    .Location {
+      letter-spacing: 1.5px;
+
+      p {
+        margin-top: 0;
+        font-size: 0.7em;
+      }
+    }
+
+    .About {
+      letter-spacing: 1.5px;
+
+      p {
+        margin-top: 0;
+        font-size: 0.7em;
+      }
+    }
+  }
+}

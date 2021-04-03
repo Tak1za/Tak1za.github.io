@@ -1,7 +1,7 @@
 import "./App.scss";
 import Header from "../Header/Header";
 import Projects from "../Projects/Projects";
-import Home from "../Home/Home";
+import Profile from "../Profile/Profile";
 import { Redirect, Route, Switch } from "react-router";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" exact>
           <Redirect to="/me" />
         </Route>
-        <Route path="/me" component={Home} />
+        <Route path="/me" component={Profile} />
         <Route path="/projects" component={Projects} />
       </Switch>
     </div>
