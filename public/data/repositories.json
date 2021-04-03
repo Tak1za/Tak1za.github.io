@@ -92,7 +92,7 @@
     "id": 9,
     "title": "CRWN Clothing",
     "url": "https://github.com/Tak1za/crwn-clothing",
-    "tags": ["HTML", "CSS", "Javascript", "Firebase"],
+    "tags": ["HTML", "CSS", "Javascript", "Firebase", "React"],
     "data": {
       "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
       "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
