@@ -10,6 +10,13 @@ import {
   DialogTitle,
 } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import showdown from "showdown";
+import parse from "html-react-parser";
+
+const convertToHTML = (data) => {
+  let converter = new showdown.Converter();
+  return parse(converter.makeHtml(data));
+};
 
 function RepositoryDetails(props) {
   const { openDetails, handleCloseDetails, repo } = props;
@@ -22,7 +29,7 @@ function RepositoryDetails(props) {
       aria-describedby="scroll-dialog-description"
       PaperProps={{
         style: {
-          backgroundColor: "#444"
+          backgroundColor: "#444",
         },
       }}
     >
@@ -41,21 +48,9 @@ function RepositoryDetails(props) {
       </DialogTitle>
       <DialogContent dividers={true}>
         <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
-          <p>
-            An online shopping store on your fingertips. Choose from a variety
-            of clothing, add them to your cart, pay for it and get it delivered.
-          </p>
+          <p>{repo.data.desc}</p>
           <h3>Tech Stack</h3>
-          <p>
-            Created using <b>React</b>, with <b>Redux</b> for state management,{" "}
-            <b>Redux Persist</b> to persist data on refresh, <b>Redux Logger</b>{" "}
-            to analyze redux operations while development, and <b>Reselect</b>{" "}
-            as a state selector library.
-            <p>
-              Authentication is powered by <b>Firebase</b>, and payments are
-              operating using <b>Stripe</b>
-            </p>
-          </p>
+          <p>{convertToHTML(repo.data.stack)}</p>
         </DialogContentText>
       </DialogContent>
       <DialogActions className="DialogActions">
