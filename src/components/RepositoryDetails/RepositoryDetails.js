@@ -49,8 +49,12 @@ function RepositoryDetails(props) {
       <DialogContent dividers={true}>
         <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
           <p>{convertToHTML(repo.data.desc)}</p>
-          <h3>Tech Stack</h3>
-          <p>{convertToHTML(repo.data.stack)}</p>
+          {repo.isStack ? (
+            <>
+              <h3>Tech Stack</h3>
+              <p>{convertToHTML(repo.data.stack)}</p>
+            </>
+          ) : null}
         </DialogContentText>
       </DialogContent>
       <DialogActions className="DialogActions">
