@@ -2,44 +2,59 @@ import React from "react";
 import "./RepositoryDetails.scss";
 import {
   Avatar,
+  Button,
   Dialog,
   DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
 } from "@material-ui/core";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function RepositoryDetails(props) {
   const { openDetails, handleCloseDetails, repo } = props;
   return (
     <Dialog
-      className="Dialog"
       open={openDetails}
       onClose={handleCloseDetails}
       scroll="paper"
       aria-labelledby="scroll-dialog-title"
       aria-describedby="scroll-dialog-description"
+      PaperProps={{
+        style: {
+          backgroundColor: "#444"
+        },
+      }}
     >
-      <DialogTitle id="scroll-dialog-title">{repo.title}</DialogTitle>
+      <DialogTitle id="scroll-dialog-title">
+        <div>{repo.title}</div>
+        <Button
+          variant="outlined"
+          size="small"
+          target="_blank"
+          href={repo.url}
+          endIcon={<GitHubIcon />}
+          color="inherit"
+        >
+          Github
+        </Button>
+      </DialogTitle>
       <DialogContent dividers={true}>
         <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
           <p>
-            On the other hand, we denounce with righteous indignation and
-            dislike men who are so beguiled and demoralized by the charms of
-            pleasure of the moment, so blinded by desire, that they cannot
-            foresee the pain and trouble that are bound to ensue; and equal
-            blame belongs to those who fail in their duty through weakness of
-            will, which is the same as saying through shrinking from toil and
-            pain. These cases are perfectly simple and easy to distinguish. In a
-            free hour, when our power of choice is untrammelled and when nothing
-            prevents our being able to do what we like best, every pleasure is
-            to be welcomed and every pain avoided. But in certain circumstances
-            and owing to the claims of duty or the obligations of business it
-            will frequently occur that pleasures have to be repudiated and
-            annoyances accepted. The wise man therefore always holds in these
-            matters to this principle of selection: he rejects pleasures to
-            secure other greater pleasures, or else he endures pains to avoid
-            worse pains.
+            An online shopping store on your fingertips. Choose from a variety
+            of clothing, add them to your cart, pay for it and get it delivered.
+          </p>
+          <h3>Tech Stack</h3>
+          <p>
+            Created using <b>React</b>, with <b>Redux</b> for state management,{" "}
+            <b>Redux Persist</b> to persist data on refresh, <b>Redux Logger</b>{" "}
+            to analyze redux operations while development, and <b>Reselect</b>{" "}
+            as a state selector library.
+            <p>
+              Authentication is powered by <b>Firebase</b>, and payments are
+              operating using <b>Stripe</b>
+            </p>
           </p>
         </DialogContentText>
       </DialogContent>
