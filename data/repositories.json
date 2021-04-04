@@ -34,10 +34,9 @@
       "Docker",
       "Linux"
     ],
-    "isStack": true,
+    "isStack": false,
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "Honeywell Forge is Enterprise Performance Management Software-as-a-Service, purpose-built on a native edge-to-cloud, data-driven architecture to accelerate digital transformation by:\n- Providing apps that deliver value in days\n- Delivering a system of record that is always up-to-date\n- Future-proofing investments via extensible applications\n- Avoiding the rip-and-replace approach to extensive capital projects\n\nFeaturing connected software and hardware solutions, Honeywell Forge measures, optimizes and automates operations, as an open, extensible, cybersecure offering designed to work across any enterprise. "
     }
   },
   {
@@ -63,17 +62,6 @@
   },
   {
     "id": 6,
-    "title": "Judgement",
-    "url": "https://github.com/Tak1za/judgement",
-    "tags": ["Go"],
-    "isStack": true,
-    "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
-    }
-  },
-  {
-    "id": 7,
     "title": "Quiet Hackernews",
     "url": "https://github.com/Tak1za/go-hackernews",
     "tags": ["Go", "HTML"],
@@ -84,18 +72,7 @@
     }
   },
   {
-    "id": 8,
-    "title": "Frankie's Dining",
-    "url": "https://github.com/Tak1za/frankieOSP-master",
-    "tags": ["PHP", "HTML", "CSS", "Javascript"],
-    "isStack": true,
-    "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
-    }
-  },
-  {
-    "id": 9,
+    "id": 7,
     "title": "CRWN Clothing",
     "url": "https://github.com/Tak1za/crwn-clothing",
     "tags": ["HTML", "CSS", "Firebase", "React"],
@@ -106,7 +83,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "Tech-News",
     "url": "https://github.com/Tak1za/tech-news",
     "tags": ["React", "Go"],
