@@ -1,5 +1,5 @@
 .MuiGrid-root {
-  padding: 20px;
+  padding: 5px 20px;
 
   * {
     margin-bottom: 0;
@@ -7,8 +7,9 @@
   }
 
   h1,
-  h2 {
-    color: #888;
+  h2,
+  h3 {
+    color: #3f51b5;
   }
 
   .Details {
@@ -38,6 +39,56 @@
         margin-top: 0;
         font-size: 0.7em;
       }
+    }
+  }
+
+  .Experience {
+    .MuiStepper-vertical {
+      background-color: inherit;
+      padding: 10px 0;
+
+      .MuiStepLabel-label {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+
+      .MuiStepContent-root {
+        color: white;
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  .Expertise {
+    .ExpertiseChipsContainer {
+      padding: 10px 0px;
+
+      .MuiChip-root {
+        margin: 0 2px 5px 2px;
+        background-color: white;
+      }
+    }
+  }
+
+  .PostScript {
+    font-size: 0.7em;
+  }
+
+  .MuiGrid-item {
+    .MuiLink-root {
+      color: grey;
+      font-weight: bold;
+    }
+
+    .MuiLink-root:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    .MuiFab-primary {
+      margin: 10px 5px 8px 10px;
     }
   }
 }
