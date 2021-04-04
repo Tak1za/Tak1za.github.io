@@ -21,7 +21,9 @@ function Projects() {
       {repositories &&
         repositories.length > 0 &&
         repositories.map((repo) => {
-          return <Repository repo={repo} className="Repository" />;
+          return (
+            <Repository repo={repo} className="Repository" key={repo.id} />
+          );
         })}
     </div>
   );

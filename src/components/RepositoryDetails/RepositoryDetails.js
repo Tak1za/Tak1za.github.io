@@ -47,13 +47,13 @@ function RepositoryDetails(props) {
         </Button>
       </DialogTitle>
       <DialogContent dividers={true}>
-        <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
-          <p>{convertToHTML(repo.data.desc)}</p>
+        <DialogContentText id="scroll-dialog-description" tabIndex={-1} component="span">
+          {convertToHTML(repo.data.desc)}
           {repo.isStack ? (
-            <>
+            <div>
               <h3>Tech Stack</h3>
-              <p>{convertToHTML(repo.data.stack)}</p>
-            </>
+              <div>{convertToHTML(repo.data.stack)}</div>
+            </div>
           ) : null}
         </DialogContentText>
       </DialogContent>
@@ -61,6 +61,7 @@ function RepositoryDetails(props) {
         {repo.tags.map((tag) => {
           return (
             <Avatar
+              key={tag}
               src={`${process.env.PUBLIC_URL}/assets/${tag.toLowerCase()}.svg`}
               alt={tag}
               className="Avatar"

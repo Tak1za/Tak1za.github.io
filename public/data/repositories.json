@@ -58,8 +58,7 @@
     "tags": ["Dart", "Flutter"],
     "isStack": false,
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "A mobile application that helps you track your media subscriptions like **Amazon Prime**, **Netflix**, **Spotify** etc..\n\nJust add in your subscription details like the amount that is paid, last payment date, and the subscription period. If you chose to add reminders, it will add a reminder in your calendar application 10 that will trigger a day before the next payment date."
     }
   },
   {
