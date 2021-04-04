@@ -79,8 +79,8 @@
     "tags": ["Go", "HTML"],
     "isStack": true,
     "data": {
-      "desc": "An online shopping store on your fingertips. Choose from a variety of clothing, add them to your cart, pay for it and get it delivered.",
-      "stack": "Created using **React**, with **Redux** for state management, **Redux Persist** to persist data on refresh, **Redux Logger** to analyze redux operations while development, and **Reselect** as a state selector library.\n\nAuthentication is powered by **Firebase**, and payments are operating using **Stripe**."
+      "desc": "Quiet Hackernews is a clone of Hackernews, but with Caching and Concurrency.\n\nIt implements a Active Expiry caching mechanism that expires the cache after 10 seconds, and re-populates the cache 5 seconds before it expires to provide latest data with 0 delay.",
+      "stack": "**Go** is used as the backend, making use of its concurrency techniques to make page reloads blazing fast. The frontend is powered by **HTML** with Go templating."
     }
   },
   {
