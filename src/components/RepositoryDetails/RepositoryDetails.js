@@ -10,6 +10,7 @@ import {
   DialogTitle,
 } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import HomeIcon from "@material-ui/icons/Home";
 import showdown from "showdown";
 import parse from "html-react-parser";
 
@@ -40,14 +41,20 @@ function RepositoryDetails(props) {
           size="small"
           target="_blank"
           href={repo.url}
-          endIcon={<GitHubIcon />}
+          endIcon={
+            repo.title === "Honeywell Forge" ? <HomeIcon /> : <GitHubIcon />
+          }
           color="inherit"
         >
-          Github
+          {repo.title === "Honeywell Forge" ? "Website" : "Github"}
         </Button>
       </DialogTitle>
       <DialogContent dividers={true}>
-        <DialogContentText id="scroll-dialog-description" tabIndex={-1} component="span">
+        <DialogContentText
+          id="scroll-dialog-description"
+          tabIndex={-1}
+          component="span"
+        >
           {convertToHTML(repo.data.desc)}
           {repo.isStack ? (
             <div>
