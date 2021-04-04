@@ -65,6 +65,7 @@ function getExpertise() {
     "Linux",
     "Javascript",
     "Neo4j",
+    "Elasticsearch",
     "Flutter",
     "Firebase",
   ];
