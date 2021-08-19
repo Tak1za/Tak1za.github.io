@@ -15,16 +15,18 @@ import parse from "html-react-parser";
 import { EmailRounded, LinkedIn, Twitter, WhatsApp } from "@material-ui/icons";
 
 function getExperience() {
-  return ["Honeywell", "Honeywell", "Aricent Technologies"];
+  return ["Honeywell", "Honeywell", "Honeywell", "Aricent Technologies"];
 }
 
 function getExperienceContent(step) {
   switch (step) {
     case 0:
-      return `- Contributed on Honeywell Forge by working on technologies like **Neo4j** and **Elasticsearch**\n- Leveraged **Redis** as a cache\n- Trained colleagues on taking up **Go** and developed a vital component on the same\n- Contributed heavily on increasing the performance of the APIs\n- Gained experience on managing scrum teams by acting as a scrum lead`;
+      return `- Granted promotion to Software Engineer II after glorious 2 years, work profile inclining towards system design\n- Recevied bravo award for creating an application that helps track variable mappings across deployment environments`;
     case 1:
-      return `- Created a POC to create an indoor navigation system using WiFi routers placed inside\n- Created a POC for an extensible object model leveraging **Neo4j** and **Elasticsearch**\n- Worked on **Open Policy Agent** to implement RBAC for internal offerings\n- Participated in a Hackathon to create an automated Vehicle Management System, leading to a job offer`;
+      return `- Contributed on Honeywell Forge by working on technologies like **Neo4j** and **Elasticsearch**\n- Leveraged **Redis** as a cache\n- Trained colleagues on taking up **Go** and developed a vital component on the same\n- Contributed heavily on increasing the performance of the APIs\n- Gained experience on managing scrum teams by acting as a scrum lead`;
     case 2:
+      return `- Created a POC to create an indoor navigation system using WiFi routers placed inside\n- Created a POC for an extensible object model leveraging **Neo4j** and **Elasticsearch**\n- Worked on **Open Policy Agent** to implement RBAC for internal offerings\n- Participated in a Hackathon to create an automated Vehicle Management System, leading to a job offer`;
+    case 3:
       return `- Created automation scripts to test the **SIP(session Initiation Protocol) Stack**\n- Used **Selenium** and Excel macros to automate a manual ticket creation process\n- Made myself familiar with **Linux**, partly working as a system admin`;
     default:
       return;
@@ -34,10 +36,12 @@ function getExperienceContent(step) {
 function getExperienceTime(step) {
   switch (step) {
     case 0:
-      return `July, 2019 - Present`;
+      return `August, 2021 - Present`
     case 1:
-      return `February, 2019 - June, 2019`;
+      return `July, 2019 - July, 2021`;
     case 2:
+      return `February, 2019 - June, 2019`;
+    case 3:
       return `May, 2018 - June, 2018`;
     default:
       return;
@@ -47,10 +51,12 @@ function getExperienceTime(step) {
 function getExperienceRole(step) {
   switch (step) {
     case 0:
-      return `Software Engineer I`;
+      return `Software Engineer II`;
     case 1:
-      return `Intern Bachelor`;
+      return `Software Engineer I`;
     case 2:
+      return `Intern Bachelor`;
+    case 3:
       return `Software Intern`;
     default:
       return;
